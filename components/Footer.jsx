@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { socials } from "../constants";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 
@@ -53,7 +52,6 @@ const Footer = () => (
           className="mb-[50px] h-[2px] bg-white
         opacity-10"
         />
-        <div></div>
       </div>
     </div>
   </motion.footer>
